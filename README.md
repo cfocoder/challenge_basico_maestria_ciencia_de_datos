@@ -32,6 +32,8 @@ Este proyecto muestra un análisis exploratorio de la base de datos Global Terro
 ## Global Terrorism Database (Kaggle)
 https://www.kaggle.com/datasets/START-UMD/gtd
 
+## Github
+https://github.com/cfocoder/challenge_basico_maestria_ciencia_de_datos
 
 ---
 
