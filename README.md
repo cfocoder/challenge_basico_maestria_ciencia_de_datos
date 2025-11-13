@@ -1,41 +1,74 @@
-# Análisis de la Global Terrorism Database con PySpark y Koalas
+# Challenges de Maestría en Ciencia de Datos
 
-Este proyecto muestra un análisis exploratorio de la base de datos Global Terrorism Database (GTD) usando PySpark y la API de Koalas (pandas-on-Spark) en Databricks.
+Este repositorio contiene dos challenges del primer semestre de la Maestría en Ciencia de Datos, implementados utilizando tecnologías de Big Data y Machine Learning.
 
-## Pasos realizados
+## Challenge Básico: Análisis de la Global Terrorism Database
 
-1. **Carga de datos**: Se importó el archivo CSV de GTD a Databricks y se cargó como un DataFrame de Spark.
-2. **Conversión a Koalas**: Se utilizó la API de Koalas para trabajar con sintaxis similar a pandas, pero sobre Spark.
-3. **Análisis exploratorio**: Se realizaron estadísticas descriptivas para conocer la estructura y características generales del dataset.
-4. **Enfoque en United Kingdom**:
-    - Se identificó que el Reino Unido (United Kingdom) tenía un número significativo de incidentes.
-    - Se filtraron los datos para analizar únicamente los incidentes ocurridos en UK.
-    - Se observó que el tipo de ataque más común era "Bombing/Explosion".
-5. **Análisis en Belfast**:
-    - Se detectó que la mayoría de los incidentes de "Bombing/Explosion" en UK ocurrieron en la ciudad de Belfast.
-    - Se analizaron las tendencias anuales de este tipo de ataque en UK y se graficaron los incidentes por ciudad.
-    - Se extrajeron y visualizaron los incidentes en Belfast entre 1990 y 1993, mostrando el tipo de objetivo atacado.
+### Descripción
+Análisis exploratorio de la base de datos Global Terrorism Database (GTD) utilizando PySpark y Koalas (pandas-on-Spark) en Databricks.
 
-## Requisitos
-- Databricks Free Edition
-- PySpark y Koalas (pandas-on-Spark)
-- Matplotlib para visualizaciones
+### Contenido
+- Carga y procesamiento de datos CSV de GTD
+- Conversión a Koalas para análisis similar a pandas
+- Estadísticas descriptivas del dataset
+- Análisis específico del Reino Unido (UK)
+- Enfoque en Belfast: tendencias de ataques por explosión (1990-1993)
+- Visualizaciones de incidentes por ciudad y tipo de ataque
 
-## Ejecución
-1. Sube el notebook a tu entorno de Databricks.
-2. Ejecuta las celdas en orden para reproducir el análisis y las visualizaciones.
+### Tecnologías
+- PySpark
+- Koalas (pandas-on-Spark)
+- Databricks
+- Matplotlib
 
-## Notas
-- El análisis se puede extender a otros países, ciudades o tipos de ataque según el interés.
-- El notebook está listo para ser ejecutado en Databricks y puede adaptarse fácilmente a otros entornos Spark.
+### Archivos
+- `README.md`: Descripción detallada del proyecto
+- `Tarea_Global_Terrorism_Hector_Sanchez.ipynb`: Notebook con el análisis completo
 
-## Global Terrorism Database (Kaggle)
-https://www.kaggle.com/datasets/START-UMD/gtd
+## Challenge Intermedio: Predicción de Calidad de Vino con Spark ML
 
-## Github
-https://github.com/cfocoder/challenge_basico_maestria_ciencia_de_datos
+### Descripción
+Implementación de un modelo predictivo de clasificación para predecir la calidad del vino utilizando Spark ML en el Wine Quality Dataset de UCI.
 
----
+### Objetivos
+- Aplicar algoritmos de machine learning en grandes bases de datos con Spark ML
+- Descargar, limpiar y preparar datos
+- Entrenar modelo de regresión logística
+- Evaluar rendimiento y documentar resultados
 
-**Autor:** Héctor Sánchez
-**Fecha:** Octubre 2025
+### Evaluación
+- Limpieza y preparación de datos: 20%
+- Selección del modelo: 20%
+- Exactitud y evaluación: 30%
+- Documentación: 30%
+
+### Contenido del Notebook
+- Configuración de Spark en Databricks
+- Carga del Wine Quality Dataset
+- Análisis exploratorio de datos (EDA)
+- Preprocesamiento y transformación de features
+- Entrenamiento de modelo de regresión logística
+- Evaluación: métricas, matrices de confusión, curvas ROC
+- Conclusiones y recomendaciones
+
+### Tecnologías
+- PySpark
+- Spark ML
+- Databricks
+- Matplotlib/Seaborn para visualizaciones
+
+### Archivos
+- `challenge_intermedio.md`: Descripción del challenge
+- `reto_intermedio_wine_quality.ipynb`: Implementación completa
+- `README.md`: Resumen del contenido
+
+## Requisitos Generales
+- Databricks (Free Edition o conectada desde VS Code)
+- PySpark y bibliotecas relacionadas
+- Acceso a datasets de Kaggle/UCI
+
+## Autor
+Héctor Gabriel Sánchez Pérez
+
+## Fecha
+Octubre-Noviembre 2025
